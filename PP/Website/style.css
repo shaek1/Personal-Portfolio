@@ -158,3 +158,26 @@ h1{
     color: white;
     border-radius: 4px;
 }
+
+/* Portfolio */
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/*Contact*/
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
