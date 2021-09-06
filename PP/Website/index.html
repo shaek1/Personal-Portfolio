@@ -20,10 +20,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active px-lg-4" href="#">Home</a>
-          <a class="nav-item nav-link px-lg-4" href="#">About</a>
-          <a class="nav-item nav-link px-lg-4" href="#">Portfolio</a>
-          <a class="nav-item nav-link px-lg-4" href="#">Contact</a>
+          <a class="nav-item nav-link active px-lg-4 rounded" href="#">Home</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#">About</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#">Portfolio</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#">Contact</a>
         </div>
       </div>
       </div>
@@ -36,14 +36,16 @@
       <div class="container py-5">
         <div class ="row py-5">
           <div class="col-lg-6 py-5 mr-auto">
-            <h3><small>Hi, I'm</small> <br>
+            <h3><small>Hello, I'm</small> <br>
               Shaek
             </h3>
-            <h6>Future Full-Stack Developer</h6>
-            <input type="button" value="My Work" class="bt1 mt-5">
+            <h6 class="pt-3">Future Full-Stack Developer</h6>
+            <input type="button" value="My Work" class="bt1 mt-5 mr-3">
             <input type="button" value="Contact Me" class ="bt2 mt-5">
           </div>
     </section>
+
+    <!-- About section start -->
 
     <section class="about py-5">
       <div class="container py-5">
@@ -54,7 +56,7 @@
           <div class="col-lg-7">
             <h1>About Me.</h1>
             <p>RETAIL PROFESSIONAL | AMATEUR COMMUNITY EXPEDITION LEADER & ASPIRING PROGRAMMER</p>
-            <p class="py-3">I'm <b>Shaek</b>, your typical jack of all trades and master of none(maybe some). Blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. blah</p>
+            <p class="py-3">I'm <b>Shaek Abdul</b>, your typical jack of all trades and master of none(maybe some). Blah Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. blah</p>
           
             <div class="progress">
               <div class="pro-value1">
@@ -80,14 +82,13 @@
               </div>
             </div>
           
-            <input type="button" class="btn1" value="Download C.V">
-            <input type="button" class="btn2" value="Contact Me">
+            <input type="button" class="btn1 mt-5" value="Download C.V">
+            <input type="button" class="btn2 mt-5" value="Contact Me">
 
           </div>
         </div>
       </div>
     </section>
-
 
     <!-- Portfolio Section -->
 
@@ -116,44 +117,55 @@
           <div class="col-lg-10 mx-auto">
             <div class="row text-center">
               <div class="col-lg-4">
-                
+                <div class="circle">
+                  <span><i class="fas fa-street-view"></i></span>
+                </div>
                 <h5>Location</h5>
                 <p>Sydney, Australia</p>
               </div>
               <div class="col-lg-4">
-            
+                <div class="circle">
+                  <span><i class="fas fa-envelope-square"></i></span>
+                </div>
                 <h5>Email</h5>
                 <p>shaeka8@gmail.com</p>
               </div>
               <div class="col-lg-4">
-              
-              <h5>Phone</h5>
+                <div class="circle">
+                  <span><i class="fas fa-phone"></i></span>
+                </div>
+                <h5>Phone</h5>
                 <p>0420 267 847</p>
               </div>
             </div>
           </div>
         </div>
-          <div class="row">
-            <div class="col-lg-9 mx-auto">
-              <form action="">
-                <div class="form-row">
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control bg-light mb-3" placeholder="Name">
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+            <form action="">
+              <div class="form-row">
+                <div class="col-lg-6">
+                  <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-row">
+                  <div class="col-lg-12">
+                    <textarea name="" id="" class="form-control bg-light" placeholder="Message" cols="30" rows="10"></textarea>
                   </div>
                 </div>
-                <div class="form-row">
-                    <div class="col-lg-12">
-                      <textarea name="" id="" class="form-control bg-light" placeholder="Message" cols="30" rows="10"></textarea>
-                    </div>
-                  </div>
-                  <button class="btn3 my-4">Submit</button>
-              </form>
-          </div>
+                <button class="btn3 my-4">Submit</button>
+            </form>
+        </div>
+    </div>
       </div>
     </section>
+
+    <footer class="py-3 text-center">
+      <p>Shaek Abdul 2021</p>
+    </footer>
 
 
     <!-- Optional JavaScript -->
@@ -161,5 +173,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3ed637df99.js" crossorigin="anonymous"></script>
   </body>
 </html>
