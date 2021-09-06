@@ -21,9 +21,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
           <a class="nav-item nav-link active px-lg-4 rounded" href="#">Home</a>
-          <a class="nav-item nav-link px-lg-4 rounded" href="#">About</a>
-          <a class="nav-item nav-link px-lg-4 rounded" href="#">Portfolio</a>
-          <a class="nav-item nav-link px-lg-4 rounded" href="#">Contact</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#about">About</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link px-lg-4 rounded" href="#contact">Contact</a>
         </div>
       </div>
       </div>
@@ -40,14 +40,14 @@
               Shaek
             </h3>
             <h6 class="pt-3">Future Full-Stack Developer</h6>
-            <input type="button" value="My Work" class="bt1 mt-5 mr-3">
-            <input type="button" value="Contact Me" class ="bt2 mt-5">
+            <input type="button" value="My Work" class="bt1 mt-5 mr-3" onClick="document.getElementById('portfolio').scrollIntoView();" />
+            <input type="button" value="Contact Me" class ="bt2 mt-5" onClick="document.getElementById('contact').scrollIntoView();" />
           </div>
     </section>
 
     <!-- About section start -->
 
-    <section class="about py-5">
+    <section class="about py-5" id="about">
       <div class="container py-5">
         <div class="row">
           <div class="col-lg-5">
@@ -83,7 +83,7 @@
             </div>
           
             <input type="button" class="btn1 mt-5" value="Download C.V">
-            <input type="button" class="btn2 mt-5" value="Contact Me">
+            <input type="button" class="btn2 mt-5" value="Contact Me" onClick="document.getElementById('contact').scrollIntoView();" />
 
           </div>
         </div>
@@ -92,7 +92,7 @@
 
     <!-- Portfolio Section -->
 
-    <section class="portfolio py-5">
+    <section class="portfolio py-5" id="portfolio">
       <div class="container text-center py-5">
         <h1 class="text-center pb-5">Portfolio</h1>
         <div class="control">
@@ -110,7 +110,7 @@
 
     <!-- Contact Section -->
 
-    <section class="contact py-5">
+    <section class="contact py-5" id=contact>
       <div class="container py-5">
         <h1 class="text-center">Contact Me.</h1>
         <div class="row py-5">
